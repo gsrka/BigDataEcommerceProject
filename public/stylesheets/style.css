@@ -1,0 +1,60 @@
+.container-fluid {
+	background: #00693c;
+    background: -moz-linear-gradient(left,#00693c 0,#002d62 100%);
+    background: -webkit-gradient(linear,left top,right top,color-stop(0%,#00693c),color-stop(100%,#002d62));
+    background: -webkit-linear-gradient(left,#00693c 0,#002d62 100%);
+    background: -o-linear-gradient(left,#00693c 0,#002d62 100%);
+    background: -ms-linear-gradient(left,#00693c 0,#002d62 100%);
+    background: linear-gradient(to right,#00693c 0,#002d62 100%);
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover  {
+    color: #fff;
+}
+
+.navbar-default .navbar-header .navbar-brand{
+	font-family: Brush Script Std, Brush Script MT, cursive;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li:first-child>a:focus  {
+    color: #fff;
+}
+
+.navbar-nav>.open>a:focus{
+	    background-color: #738492!important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.carousel-inner>.item>img{
+	height: 300px !important;
+}
+
+
+.thumbnail img{
+	max-height: 150 px;
+}
+
+.thumbnail .description{
+	color: #7f7f7f;
+}
+
+.price{
+	font-weight: bold;
+	font-size: 16 px;
+}
+
+@media (min-width: 1024px){
+	
+	.navbar-default .navbar-collapse .form-group .form-control{
+		width: 22em;
+	}
+
+}
