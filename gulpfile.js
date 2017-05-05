@@ -7,7 +7,7 @@ var fs = require('fs');
 var knownOptions = {
 	string: 'packageName',
 	string: 'packagePath',
-	default: {packageName: "E-commerce-Website-master.zip", packagePath: path.join(__dirname, '_package')}
+	default: {packageName: "Package.zip", packagePath: path.join(__dirname, '_package')}
 }
 
 var options = minimist(process.argv.slice(2), knownOptions);
